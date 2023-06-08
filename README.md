@@ -2,11 +2,13 @@
 
 ​		首先，感谢GitHub上的开源大佬！其项目地址：<a href="https://github.com/zhayujie/chatgpt-on-wechat">https://github.com/zhayujie/chatgpt-on-wechat</a>，对于他的项目地址我修改了少许部分，以实现在国内服务器上部署（当然这里需要**魔法**，找不到魔法的同学可以评论区留言）。这里是我的项目地址：<a href="https://github.com/Peteroyu/chatgpt-on-wechat">https://github.com/Peteroyu/chatgpt-on-wechat</a>。
 
+> `ps`：国内访问可能下面的图打不开，需要挂魔法，自行解决。
+
 #### 1、准备服务器
 
 ##### 1.1 服务器密码及安全组规则修改
 
-​		这里我是用的是腾讯云国内服务器，有条件的同学可以直接选择国外的云服务器，服务器器配置不需要太高，1核1g都可以。服务器购买之后，系统选择`Centos7.6`，随后进入https://console.cloud.tencent.com/lighthouse/，按下图位置==重置服务器密码==：
+​		这里我是用的是腾讯云国内服务器，有条件的同学可以直接选择国外的云服务器，服务器器配置不需要太高，1核1g都可以。服务器购买之后，系统选择`Centos7.6`，随后进入<a href="https://console.cloud.tencent.com/lighthouse/">https://console.cloud.tencent.com/lighthouse/</a>，按下图位置==重置服务器密码==：
 
 <img src="img/image-20230607231027303.png" alt="image-20230607231027303"  />
 
