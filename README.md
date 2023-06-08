@@ -1,6 +1,6 @@
 # 搭建ChatGPT微信聊天机器人
 
-​		首先，感谢GitHub上的开源大佬！其项目地址：https://github.com/zhayujie/chatgpt-on-wechat，对于他的项目地址我修改了少许部分，以实现在国内服务器上部署（当然这里需要**魔法**，找不到魔法的同学可以评论区留言）。这里是我的项目地址：https://github.com/Peteroyu/chatgpt-on-wechat。
+​		首先，感谢GitHub上的开源大佬！其项目地址：<a href="https://github.com/zhayujie/chatgpt-on-wechat">https://github.com/zhayujie/chatgpt-on-wechat</a>，对于他的项目地址我修改了少许部分，以实现在国内服务器上部署（当然这里需要**魔法**，找不到魔法的同学可以评论区留言）。这里是我的项目地址：<a href="https://github.com/Peteroyu/chatgpt-on-wechat">https://github.com/Peteroyu/chatgpt-on-wechat</a>。
 
 #### 1、准备服务器
 
