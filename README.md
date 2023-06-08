@@ -204,7 +204,45 @@ vim open_ai_image.py #修改代码中256x256为1024x1024
 
 ###### 1.2.3 魔法安装
 
-​		我是用的是`clash`，服务端安装比较方便，这里我就不展开讲述了，请自行百度实现。
+​		我是用的是`clash`，服务端安装比较方便。首先下载：
+
+```bash
+cd /opt/package/
+wget https://github.com/Dreamacro/clash/releases/download/v1.16.0/clash-linux-amd64-v1.16.0.gz
+# 这里下载不下来的同学，也可以通过本地下载，然后通过xftp上传到服务器
+
+#解包
+gunzip clash-linux-amd64-v1.16.0.gz 
+#修改文件名
+mv clash-linux-amd64-v1.16.0 clash
+#添加执行权限
+chmod +x clash 
+
+#这里需要先执行一次，然他在~/.config文件中创建文件夹和一些文件
+./clash
+cd ~/.config/clash/
+```
+
+​		到了这里之后，需要将自己电脑中安装的clash配置文件`config.yaml`和`Country.mmdb`，拷贝到服务器`~/.config/clash/`文件夹中，配置文件位置查找方式如下：
+
+- `config.yaml`配置文件：
+
+![image-20230608162445135](img/image-20230608162445135.png)
+
+![image-20230608162540052](img/image-20230608162540052.png)
+
+- `Country.mmdb`配置文件：这里需要相对上一个文件夹后退一个文件夹，就可以发现该配置文件
+
+![image-20230608162904693](img/image-20230608162904693.png)
+
+​		将上面两个文件拷贝至服务器`~/.config/clash/`中，之后开始直接执行`clash`脚本就可以了：
+
+```bash
+cd /opt/package/
+
+#通过后台运行
+nohup ./clash >/dev/null 2>&1 &
+```
 
 #### 3、运行
 
